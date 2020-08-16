@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nav-wrapper {
+  background-color: #6f4037;
+}
+.brand-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.fslider {
+  color: white;
+}
+.slider .indicators .indicator-item.active {
+  background-color: #6f4037;
+}
+.finfo {
+  font-size: 17px;
+}
+
+.nav li a {
+  font-size: 3vw;
+  font-weight: 700;
+}
+
+.faboutus .header {
+  font-weight: 500;
+}
+.faboutus p {
+  font-size: 3vw;
+  color: black;
+  text-align: center;
+}
+
+.faboutus .btn {
+  background-color: #6f4037;
+}
+.material-icons {
+  color: #6f4037;
+}
+.slider {
+  height: 300vh;
+}
+.brand-logo {
+  font-style: italic;
+  margin-left: 2rem;
+}
+
+.fcards .row {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
+.fparallax {
+  background-size: 50%;
+  background-position-x: right;
+  background-position-y: center;
+}
+.fcards .card {
+  height: 28rem;
+  width: 20rem;
+}
+.fcards .card-img-top {
+  width: 20rem;
+  height: 15rem;
+}
+.card-content .card-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+.card-content {
+}
+.card-reveal {
+}
+.feedback-card {
+  background-color: black;
+  height: 50vh;
+  width: 40vw;
+}
+.feedback-card-panel {
+  background-color: #6f4037;
+  display: flex;
+  align-items: center;
+  justify-content: stretch;
+  height: inherit;
+  padding: 0.5rem;
+}
+.feedback-card-panel span {
+  font-weight: 400;
+  font-style: italic;
+}
+.footer {
+  background-color: #6f4037;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.1rem;
+}
+/* @media screen and (max-width: 480px) {
+} */
+@media screen and (max-width: 600px) {
+  img {
+    width: 200px;
+  }
+  body {
+    max-width: 100%;
+    width: 100%;
+  }
+  .fa-coffee {
+    display: none;
+  }
+  /* .card {
+    width: 100%;
+    height: 25rem;
+    margin: auto;
+  }
+  .col .sm12 .md12 {
+    width: 100%;
+    float: left;
+    margin: 0;
+  } */
+}
